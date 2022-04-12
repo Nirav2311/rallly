@@ -6,6 +6,7 @@ import { isQuickCreateEnabled } from "@/features/quick-create/constants";
 
 const publicRoutes = ["/login", "/register", "/invite/", "/poll/", "/auth"];
 
+console.log("isQuickCreateEnabled--->", isQuickCreateEnabled);
 if (isQuickCreateEnabled) {
   publicRoutes.push("/quick-create", "/new");
 }

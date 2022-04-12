@@ -184,7 +184,8 @@ export class EmailClient {
               }
             : undefined,
           tls: {
-            rejectUnauthorized: process.env["SMTP_TLS_ENABLED"] === "true",
+            minVersion: "TLSv1.2",
+            // rejectUnauthorized: process.env["SMTP_TLS_ENABLED"] === "true",
           },
         });
         break;
