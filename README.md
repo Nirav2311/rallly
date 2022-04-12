@@ -12,7 +12,11 @@
 [![Discord](https://img.shields.io/badge/-Join%20Chat-7289DA?logo=discord&logoColor=white)](https://discord.gg/uzg4ZcHbuM)
 [![Donate](https://img.shields.io/badge/-Donate%20with%20Paypal-white?logo=paypal)](https://www.paypal.com/donate/?hosted_button_id=7QXP2CUBLY88E)
 
-</div>
+## Self-hosting
+
+Although this is already technically possible by following the instructions below, I'm still working on ways to make this easier and will include better documentation to support this in the near future. Thank you for your patience.
+
+## Running with docker
 
 <img src="./assets/images/splash.png" alt="Rallly" />
 
